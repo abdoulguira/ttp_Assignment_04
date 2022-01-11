@@ -14,4 +14,15 @@ changeText3.addEventListener("mouseover", event => {
     alert("Hey, I told you not to hover over me!");
   });
 
+  
 
+
+ function verifyPassword() {  
+    var pw = document.getElementById("pswd").value;  
+    
+    if(pw == "12345678") {  
+       alert("Hey, I told you not to hover over me!");
+      
+    }  
+     
+  }  
